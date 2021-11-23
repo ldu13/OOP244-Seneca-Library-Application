@@ -33,36 +33,36 @@ Publication getNextRec(ifstream& ifstr) {
 int main() {
    sdds::sdds_test = true;
    Publication pd;
-   cout << "An Invalid publication printout:" << endl;
-   cout << ">" << pd << "<" << endl;
-   cout << "Enter the following: " << endl
-      << "P1234" << endl
-      << "------------------------------" << endl;
-   pd = readPublication(cin);
-   if (!cin) {
-      cin.clear();
-      cin.ignore(1000, '\n');
-   }
-   else {
-      cout << "This is not supposed to be printed!" << endl;
-   }
-   cout << "You entered:" << endl;
-   cout << ">" << pd << "<" << endl;
-   cout << "Enter the following: " << endl
-      << "P123" << endl
-      << "Seneca Weekly" << endl
-      << "2021/13/17" << endl
-      << "------------------------------" << endl;
-   pd = readPublication(cin);
-   if (!cin) {
-      cin.clear();
-      cin.ignore(1000, '\n');
-   }
-   else {
-      cout << "This is not supposed to be printed!" << endl;
-   }
-   cout << "You entered:" << endl;
-   cout << ">" << pd << "<" << endl;
+  // cout << "An Invalid publication printout:" << endl;
+  // cout << ">" << pd << "<" << endl;
+  // cout << "Enter the following: " << endl
+  //    << "P1234" << endl
+  //    << "------------------------------" << endl;
+  // pd = readPublication(cin);
+  // if (!cin) {
+  //    cin.clear();
+  //    cin.ignore(1000, '\n');
+  // }
+  // else {
+  //    cout << "This is not supposed to be printed!" << endl;
+  // }
+  // cout << "You entered:" << endl;
+  // cout << ">" << pd << "<" << endl;
+  // cout << "Enter the following: " << endl
+  //    << "P123" << endl
+  //    << "Seneca Weekly" << endl
+  //    << "2021/13/17" << endl
+  //    << "------------------------------" << endl;
+  // pd = readPublication(cin);
+  // if (!cin) {
+  //    cin.clear();
+  //    cin.ignore(1000, '\n');
+  // }
+  // else {
+  //    cout << "This is not supposed to be printed!" << endl;
+  // }
+  // cout << "You entered:" << endl;
+  // cout << ">" << pd << "<" << endl;
    cout << "Enter the following: " << endl
       << "P123" << endl
       << "Seneca Weekly" << endl

@@ -33,9 +33,13 @@ namespace sdds
 
     void Utils::alloCopy(char*& des, const char* src)
     {
+        
         delete[] des;
-        des = new char[strlen(src) + 1];
-        strcpy(des, src);
+        des = nullptr;
+        if (src) {
+           des = new char[strlen(src) + 1];
+           strcpy(des, src);
+        }
     }
     void Utils::extractChar(std::istream& is, char ch)
     {
@@ -52,7 +56,7 @@ namespace sdds
             const int bufferSize = 20;
             int bufferNo = 1;
             char* buffer = new char[bufferSize];
-            char* str = buffer;
+            str = buffer;
             bool done = false;
             do
             {

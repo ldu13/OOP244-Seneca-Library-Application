@@ -24,9 +24,9 @@ namespace sdds
     {
     private:
         char* m_title{};
-        char m_shelfId[SDDS_SHELF_ID_LEN + 1];
-        int m_membership;
-        int m_libRef;
+        char m_shelfId[SDDS_SHELF_ID_LEN + 1]{};
+        int m_membership{};
+        int m_libRef{-1};
         Date m_date;
     public:
         Publication();
