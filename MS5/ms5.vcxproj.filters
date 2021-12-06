@@ -65,10 +65,10 @@
     <ClCompile Include="Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LibAppMain.cpp">
+    <ClCompile Include="LibApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LibApp.cpp">
+    <ClCompile Include="LibAppMain_prof.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -247,7 +247,7 @@ namespace sdds
 				ppa = new Book;
 				//cin >> ppa[0];
 			}
-			else if (select == 3)
+			else if (select == 2)
 			{
 				ppa = new Publication;
 				//cin >> ppa[0];

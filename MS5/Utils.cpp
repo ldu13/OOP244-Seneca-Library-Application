@@ -85,6 +85,7 @@ namespace sdds
             cout << "Invalid Selection, try again: ";
             istr >> value;
         }
-        return value;
+        istr.ignore(1000, '\n');
+        return value;  // 1<ENTER>
     }
 }

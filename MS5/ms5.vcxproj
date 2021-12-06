@@ -153,7 +153,7 @@
     <ClCompile Include="Book.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="LibApp.cpp" />
-    <ClCompile Include="LibAppMain.cpp" />
+    <ClCompile Include="LibAppMain_prof.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Publication.cpp" />
     <ClCompile Include="PublicationSelector.cpp" />
