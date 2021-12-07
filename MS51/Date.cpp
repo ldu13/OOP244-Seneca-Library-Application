@@ -137,10 +137,10 @@ namespace sdds
         m_ErrorCode = NO_ERROR;
 
         is >> year;
-        Utils::extractChar(is, '/');
+        is.ignore();
 
         is >> month;
-        Utils::extractChar(is, '/');
+        is.ignore();
 
         is >> day;
         if (!is)
