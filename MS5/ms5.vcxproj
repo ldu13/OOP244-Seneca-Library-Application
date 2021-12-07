@@ -153,7 +153,7 @@
     <ClCompile Include="Book.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="LibApp.cpp" />
-    <ClCompile Include="LibAppMain_prof.cpp" />
+    <ClCompile Include="LibAppMain.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Publication.cpp" />
     <ClCompile Include="PublicationSelector.cpp" />
@@ -161,6 +161,7 @@
     <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="..\..\OOP-Project\MS5\LibRecs.txt" />
     <Text Include="LibRecsSmall.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

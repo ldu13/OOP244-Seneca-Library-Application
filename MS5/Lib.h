@@ -20,7 +20,7 @@ namespace sdds
 	const int SDDS_TITLE_WIDTH = 30;
 	const int SDDS_AUTHOR_WIDTH = 15;
 	const int SDDS_SHELF_ID_LEN = 4;
-	const int SDDS_LIBRARY_CAPACITY = 5000;
+	const int SDDS_LIBRARY_CAPACITY = 12;
 	const int SEARCH_ALL = 1;
 	const int SEARCH_ONLOAN = 2;
 	const int SEARCH_AVAILABLE = 3;
