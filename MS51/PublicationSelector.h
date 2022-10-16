@@ -1,13 +1,3 @@
-// Final Project 
-// PublicationSelector
-// File PublicationSelector.h
-// Version 1.0
-// Author	Fardad Soleimanloo
-// Revision History
-// -----------------------------------------------------------
-// Name               Date                 Reason
-//                    2021-11-27           Initial release
-/////////////////////////////////////////////////////////////////
 #ifndef SDDS_PUBLICATIONSELECTOR_H
 #define SDDS_PUBLICATIONSELECTOR_H
 #include "Publication.h"
