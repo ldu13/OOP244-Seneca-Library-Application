@@ -1,24 +1,3 @@
-/*
-    ==================================================
-    Final Project (Milestone 1):
-    ==================================================
-    Name   :           Lei Du
-    Seneca email:      ldu13@myseneca.ca
-    Seneca Student ID: 047587134
-    Date:              November 09, 2021
-*/
-// I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
-
-// Final Project Milestone 1 
-// Date Module
-// File	Date.cpp
-// Version 1.0
-// Author	Fardad Soleimanloo
-// Revision History
-// -----------------------------------------------------------
-// Name               Date                 Reason
-// Fardad             2021/10/29		       Preliminary release
-/////////////////////////////////////////////////////////////////
 #define _CRT_SECURE_NO_WARNINGS
 #include <iomanip>
 #include <iostream>
